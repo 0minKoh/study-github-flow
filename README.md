@@ -87,3 +87,12 @@ git push origin --delete 브랜치이름
 - 브랜치 이름은 작업 내용을 명확히 나타내도록 지정하세요 (예: `feature/user-authentication`, `bugfix/header-overflow`).
 - 정기적으로 `git pull`을 실행하여 원격 저장소의 변경사항을 동기화하세요.
 - 병합 전 항상 변경사항을 검토하고 테스트하세요.
+
+## github flow
+
+- 타입 사용: 브랜치의 목적을 나타내는 타입으로 시작합니다.
+  - feature: 새로운 기능
+  - bugfix: 버그 수정
+  - hotfix: 긴급한 수정
+  - test: 테스트 관련
+  - docs: 문서 수정
